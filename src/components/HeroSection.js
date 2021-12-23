@@ -21,12 +21,23 @@ function HeroSection() {
       </div>
       <div className="hero-btns">
         <div className="comb-container">
-          <p>Combined 5722+</p>
-          <p>CO2 offset</p>
-          <p>37</p>
-          <p>PROJECTS</p>
-          <p>all categories</p>
+          <p>
+            Combined 5722+ <span className="offset">CO2 offset</span>
+          </p>
+          <p className="number">37</p>
+          <p className="projec">
+            PROJECTS <span>all categorie</span>
+          </p>
         </div>
+      </div>
+      <div className="launched">
+        {/* <h1>
+          Auctual 2143+ CO2 <span>offset p</span>
+        </h1>
+        <p>23</p>
+        <h1>
+          PROJECT <span>LAUNCHED</span>
+        </h1> */}
       </div>
     </div>
   );
