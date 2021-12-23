@@ -38,6 +38,13 @@ function HeroSection() {
           PROJECT <span>LAUNCHED</span>
         </p>
       </div>
+      <div className="founded">
+        <p>You</p>
+        <p>Have</p>
+        <p>Founded</p>
+        <p>PROJECTS</p>
+        <p className="number1">4</p>
+      </div>
     </div>
   );
 }

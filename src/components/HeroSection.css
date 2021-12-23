@@ -8,7 +8,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
   object-fit: contain;
 }
 
@@ -60,6 +59,23 @@ body {
   position: relative;
   bottom: 34%;
   left: 42%;
+}
+.founded {
+  background-color: rgba(0, 0, 0, 0.651);
+  color: white;
+  height: 25%;
+  width: 10%;
+  padding: 1%;
+  position: relative;
+  bottom: 38%;
+  right: 44%;
+}
+.number1 {
+  color: green;
+  font-size: 45px;
+  position: relative;
+  bottom: 83%;
+  left: 50%;
 }
 
 .hero-btns .btn {
