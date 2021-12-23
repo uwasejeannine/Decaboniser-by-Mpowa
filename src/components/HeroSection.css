@@ -19,8 +19,9 @@ body {
   padding-left: 80px;
   padding-right: 84px;
   margin-right: 83%;
-  margin-bottom: 3%;
-  position: sticky;
+  width: 10%;
+  position: relative;
+  top: 20%;
 }
 .dec-container a {
   color: white;
@@ -47,17 +48,18 @@ body {
   height: 70%;
   width: 95%;
   left: 315%;
-  bottom: 127%;
+  bottom: 73%;
   text-align: center;
 }
 .launched {
-  /* position: relative;
-  background-color: rgba(0, 0, 0, 0.651); */
-  /* bottom: 40%; */
-  /* color: white; */
-}
-.hero-btns {
-  /* margin-top: 90px; */
+  background-color: rgba(0, 0, 0, 0.651);
+  color: white;
+  height: 26%;
+  width: 12%;
+  padding: 2%;
+  position: relative;
+  bottom: 34%;
+  left: 42%;
 }
 
 .hero-btns .btn {

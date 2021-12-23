@@ -1,6 +1,5 @@
 import React from 'react';
 import '../App.css';
-import { Button } from './Button';
 import './HeroSection.css';
 import './Services';
 
@@ -31,13 +30,13 @@ function HeroSection() {
         </div>
       </div>
       <div className="launched">
-        {/* <h1>
+        <p>
           Auctual 2143+ CO2 <span>offset p</span>
-        </h1>
-        <p>23</p>
-        <h1>
+        </p>
+        <p className="number">23</p>
+        <p>
           PROJECT <span>LAUNCHED</span>
-        </h1> */}
+        </p>
       </div>
     </div>
   );
