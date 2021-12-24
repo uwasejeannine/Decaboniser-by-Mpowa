@@ -32,9 +32,7 @@ function Navbar() {
             <p className="dec"> DECARBONIZER</p>
             <p className="by">BY MPOWA</p>
           </Link>
-          <div className="menu-icon" onClick={handleClick}>
-            <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
-          </div>
+          <div className="menu-icon" onClick={handleClick}></div>
         </div>
       </nav>
     </>
