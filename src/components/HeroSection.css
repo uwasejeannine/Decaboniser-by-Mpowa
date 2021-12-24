@@ -18,9 +18,9 @@ body {
   padding-left: 80px;
   padding-right: 84px;
   margin-right: 83%;
-  width: 10%;
+  width: 15%;
   position: relative;
-  top: 20%;
+  top: 55%;
 }
 .dec-container a {
   color: white;
@@ -45,39 +45,63 @@ body {
   position: relative;
   padding: 15%;
   height: 70%;
-  width: 95%;
-  left: 315%;
-  bottom: 73%;
+  width: 143%;
+  left: 268%;
+  top: 35%;
   text-align: center;
 }
 .launched {
-  background-color: rgba(0, 0, 0, 0.651);
+  background-color: rgba(0, 0, 0, 0.582);
   color: white;
   height: 26%;
-  width: 12%;
+  width: 18%;
   padding: 2%;
   position: relative;
-  bottom: 34%;
-  left: 42%;
+  top: 9%;
+  left: 39%;
 }
 .founded {
-  background-color: rgba(0, 0, 0, 0.651);
+  background-color: rgba(0, 0, 0, 0.774);
   color: white;
   height: 25%;
-  width: 10%;
+  width: 30%;
   padding: 1%;
   position: relative;
-  bottom: 38%;
-  right: 44%;
+  top: 9%;
+  right: 35%;
 }
 .number1 {
   color: green;
-  font-size: 45px;
+  font-size: 50px;
   position: relative;
   bottom: 83%;
   left: 50%;
 }
-
+.heroes {
+  background-color: rgba(0, 0, 0, 0.678);
+  color: white;
+  position: relative;
+  height: 25%;
+  width: 30%;
+  padding: 1%;
+  top: -20%;
+  left: -3%;
+}
+.number2 {
+  font-size: 45px;
+  position: relative;
+  height: 20%;
+}
+.potential-container {
+  background-color: rgba(0, 0, 0, 0.568);
+  color: white;
+  height: 25%;
+  width: 31%;
+  padding: 3%;
+  position: relative;
+  top: -49%;
+  left: 31.5%;
+}
 .hero-btns .btn {
   /* margin: 6px; */
 }

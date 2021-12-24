@@ -45,6 +45,20 @@ function HeroSection() {
         <p>PROJECTS</p>
         <p className="number1">4</p>
       </div>
+      <div className="heroes">
+        <p className="number2">9</p>
+        <h2>HEROES</h2>
+        <p>Who's a hero</p>
+      </div>
+      <div className="potential-container">
+        <p>
+          Potetial 3578+ CO2<span className="offset">offset pa</span>
+        </p>
+        <p className="number3">14</p>
+        <p className="projec2">
+          PROJECTS <span>IN FUNDING</span>
+        </p>
+      </div>
     </div>
   );
 }
