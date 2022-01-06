@@ -1,5 +1,6 @@
 body {
   background: url('Images/image\ \(1\).png') center center/cover no-repeat;
+position: relative;
 }
 .hero-container {
   height: 100vh;
@@ -13,31 +14,37 @@ body {
 
 .dec-container {
   background-color: rgba(0, 0, 0, 0.651);
+  position: relative;
   color: white;
   padding: 25px;
   padding-left: 80px;
   padding-right: 84px;
   margin-right: 83%;
   width: 15%;
-  position: relative;
-  top: 55%;
+  top: 65%;
 }
 .dec-container a {
   color: white;
   text-decoration: none;
 }
 .clean {
-  color: green;
+  color: #A8C634;
 }
 .dec-container a:hover {
-  color: green;
+  color: #A8C634;
 }
 .dec-container i {
   margin-left: 5%;
 }
-.number {
+.number{
   font-size: 45px;
-  color: green;
+  color:#A8C634; 
+}
+.number9 {
+  font-size: 45px;
+  color:#A8C634;
+  position: relative;
+  left: 30%;
 }
 .comb-container {
   background-color: rgba(0, 0, 0, 0.651);
@@ -45,37 +52,49 @@ body {
   position: relative;
   padding: 15%;
   height: 70%;
-  width: 143%;
-  left: 268%;
-  top: 35%;
+  width: 125%;
+  left: 246%;
+  top: 33%;
   text-align: center;
 }
 .launched {
   background-color: rgba(0, 0, 0, 0.582);
   color: white;
-  height: 26%;
+  height: 25%;
   width: 18%;
   padding: 2%;
   position: relative;
-  top: 9%;
+  top: 10%;
   left: 39%;
 }
-.founded {
+.proj-louch{
+  position: relative;
+  bottom:12%
+}
+.token{
   background-color: rgba(0, 0, 0, 0.774);
   color: white;
-  height: 25%;
-  width: 30%;
-  padding: 1%;
+  height: 27%;
+  width: 31%;
+  padding: 1.3%;
   position: relative;
-  top: 9%;
-  right: 35%;
+  top: 9.5%;
+  right: 33.8%;
 }
-.number1 {
-  color: green;
-  font-size: 50px;
+.num{
+  color: #348DCF;
   position: relative;
-  bottom: 83%;
-  left: 50%;
+  left: 20%;
+}
+.mpowa{
+  position: relative;
+  left: 20%;
+  text-decoration: none;
+}
+.val{
+  position: relative;
+  left: 20%;
+  text-decoration: none;
 }
 .heroes {
   background-color: rgba(0, 0, 0, 0.678);
@@ -84,32 +103,70 @@ body {
   height: 25%;
   width: 30%;
   padding: 1%;
-  top: -20%;
-  left: -3%;
+  top: -19.5%;
+  left: -1%;
 }
 .number2 {
   font-size: 45px;
   position: relative;
   height: 20%;
+  bottom: 19%;
+  left: 20%;
+}
+.hero{
+  position: relative;
+  top:-28%;
+  left: 20%;
+
+}
+.who{
+  position: relative;
+  top: -32%;
+  text-decoration: none;
+  left: 20%;
+
 }
 .potential-container {
   background-color: rgba(0, 0, 0, 0.568);
   color: white;
-  height: 25%;
-  width: 31%;
+  height: 17%;
+  width: 29%;
   padding: 3%;
   position: relative;
-  top: -49%;
-  left: 31.5%;
+  top: -48.5%;
+  left: 32.5%;
 }
-.hero-btns .btn {
-  /* margin: 6px; */
-}
+.image3{
+  position: relative;
+  bottom: 49%;
+  right: 25%;
+ 
 
-.fa-play-circle {
-  margin-left: 4px;
 }
+.image4{
+  position: relative;
+  bottom:117.5%;
+  left: 25.2%;
+}
+.how-it{
+  background-color: rgba(0, 0, 0, 0.678);
+  position: relative;
+  text-align: center;
+  color: white;
+  bottom: 50%;
+  padding: 4%;
+  padding-right: 6%;
 
+}
+.proj-new{
+  background-color: rgba(0, 0, 0, 0.678);
+  position: relative;
+  text-align: center;
+  color: white;
+  bottom: 50%;
+  padding: 4%;
+  padding-right: 6%;
+}
 @media screen and (max-width: 960px) {
   .hero-container > h1 {
     font-size: 70px;

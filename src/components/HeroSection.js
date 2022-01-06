@@ -2,6 +2,9 @@ import React from 'react';
 import '../App.css';
 import './HeroSection.css';
 import './Services';
+import image4 from './Images/image4.png'
+import image3 from './Images/image3.png'
+
 
 function HeroSection() {
   return (
@@ -33,22 +36,20 @@ function HeroSection() {
         <p>
           Auctual 2143+ CO2 <span>offset p</span>
         </p>
-        <p className="number">23</p>
-        <p>
-          PROJECT <span>LAUNCHED</span>
+        <p className="number9">23</p>
+        <p className='proj-louch'>
+          PROJECT LAUNCHED
         </p>
       </div>
-      <div className="founded">
-        <p>You</p>
-        <p>Have</p>
-        <p>Founded</p>
-        <p>PROJECTS</p>
-        <p className="number1">4</p>
+      <div className="token">
+        <h1 className='num'>$ 3.21</h1>
+        <p className='mpowa'>MPOWA TOKEN</p>
+        <p className='val'>VALUES</p>
       </div>
       <div className="heroes">
         <p className="number2">9</p>
-        <h2>HEROES</h2>
-        <p>Who's a hero</p>
+        <h2 className='hero'>HEROES</h2>
+        <p className='who'>Who's a hero</p>
       </div>
       <div className="potential-container">
         <p>
@@ -59,6 +60,14 @@ function HeroSection() {
           PROJECTS <span>IN FUNDING</span>
         </p>
       </div>
+      {/* <div className='image3'>
+        <img src={image3} alt='' width='679' height='340' />
+        <p className='how-it'>HOW IT WORKS</p>
+      </div>
+      <div className='image4'>
+        <img src={image4} alt='' width='674' height='336' />
+        <p className='proj-new'>PROJECT NEWS</p>
+      </div> */}
     </div>
   );
 }

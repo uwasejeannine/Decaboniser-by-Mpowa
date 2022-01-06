@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
+import image2 from './Images/image2.png'
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -28,7 +29,7 @@ function Navbar() {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            <i class="fas fa-cogs"></i>
+            <img src={image2} alt='' background-color='none'/>
             <p className="dec"> DECARBONIZER</p>
             <p className="by">BY MPOWA</p>
           </Link>
