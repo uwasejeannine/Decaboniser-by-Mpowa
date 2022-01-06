@@ -60,14 +60,14 @@ function HeroSection() {
           PROJECTS <span>IN FUNDING</span>
         </p>
       </div>
-      {/* <div className='image3'>
+      <div className='image3'>
         <img src={image3} alt='' width='679' height='340' />
         <p className='how-it'>HOW IT WORKS</p>
       </div>
       <div className='image4'>
         <img src={image4} alt='' width='674' height='336' />
         <p className='proj-new'>PROJECT NEWS</p>
-      </div> */}
+      </div>
     </div>
   );
 }
